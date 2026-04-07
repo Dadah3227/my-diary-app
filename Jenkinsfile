@@ -45,6 +45,7 @@ pipeline {
         stage('Checkout'){
             steps {
                 git branch: 'main', credentialsId: 'Githublogin', url: 'https://github.com/Dadah3227/my-diary-app.git'
+                echo 'Jesus is LORD. Hallelujah'
             }
         }
     }
