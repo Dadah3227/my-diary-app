@@ -37,5 +37,10 @@ pipeline {
                 echo 'Jesus is Lord'
             }
         }
+        stage('END TIME'){
+            steps {
+                echo 'End of times'
+            }
+        }
     }
 }
