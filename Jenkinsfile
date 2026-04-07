@@ -32,5 +32,10 @@ pipeline {
                 echo 'Thank you HOly Ghost'
             }
         }
+        stage('Hallelujah){
+            steps {
+                echo 'Jesus is Lord'
+            }
+        }
     }
 }
