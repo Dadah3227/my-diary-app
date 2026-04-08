@@ -48,7 +48,7 @@ pipeline {
                 echo 'Jesus is LORD. Hallelujah'
             }
         }
-        stage('The End){
+        stage('The End'){
             steps {
                 echo (JESUS IS LORD)
             }
