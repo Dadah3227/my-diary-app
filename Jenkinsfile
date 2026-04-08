@@ -50,7 +50,7 @@ pipeline {
         }
         stage('The End'){
             steps {
-                echo (JESUS IS LORD)
+                echo ('JESUS IS LORD')
             }
         }
     }
